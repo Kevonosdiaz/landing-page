@@ -27,7 +27,7 @@ a {
   /* Remove text-underline and set the color of the text */
   text-decoration: none;
   color: #e5e7eb;
-  font-size: 18px;
+  font-size: 13px;
 }
 
 .header img {
@@ -84,4 +84,74 @@ a {
   width: 400px;
   height: auto;
   margin: 25px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.showcase {
+  background-color: #f9faf8;
+  flex: 1 1 200px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  flex: 1 1 175px;
+}
+
+.calltoaction {
+  display: flex;
+  /* flex: 1 1 150px; */
+  /* align-self: center; */
+}
+
+.banner {
+  display: flex;
+  flex: 1 1 150px;
+  padding: 25px;
+  padding-left: 50px;
+  padding-right: 25px;
+  margin: 25px;
+  border-radius: 4px;
+  background-color: #3882f6;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+.banner-text {
+  /* flex: 2 2 100px; */
+  color: #f9faf8;
+  flex-direction: column;
+}
+
+.banner-button button {
+  background-color: #3882f6;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  border-radius: 8px;
+  border: 2px solid #f9faf8;
+  border-color: #f9faf8;
+  color: #f9faf8;
+  font-weight: 500;
+  padding: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  height: 30px;
+  width: 60px;
+  flex: 1 1 100px;
+}
+
+.footer {
+  background-color: #1f2937;
+  height: 36px;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: flex-end;
+  font-size: 11px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
