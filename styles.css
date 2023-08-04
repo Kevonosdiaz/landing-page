@@ -35,6 +35,11 @@ a {
   width: auto;
 }
 
+.logo-text {
+  color: #e5e7eb;
+  font-size: 16px;
+}
+
 .title {
   display: flex;
   background-color: #1f2937;
@@ -94,11 +99,46 @@ a {
 .showcase {
   background-color: #f9faf8;
   flex: 1 1 200px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
 }
 
-.quote {
+.showcase-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.showcase-title {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.quote-banner {
   background-color: #e5e7eb;
   flex: 1 1 175px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-text {
+  max-width: 800px;
+  flex: 1 1 100px;
+  font-size: 18px;
+}
+
+.quote-attribution {
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .calltoaction {
