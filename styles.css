@@ -61,6 +61,8 @@ a {
 .title-container {
   display: flex;
   /* justify-content: center; */
+  margin-left: 48px;
+  margin-right: 48px;
 }
 
 .title-left {
@@ -230,6 +232,8 @@ a {
   padding-left: 50px;
   padding-right: 25px;
   margin: 25px;
+  margin-left: 48px;
+  margin-right: 48px;
   border-radius: 4px;
   background-color: #3882f6;
   align-items: center;
